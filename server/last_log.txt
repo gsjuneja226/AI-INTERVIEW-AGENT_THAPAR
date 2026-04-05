@@ -1,0 +1,100 @@
+﻿  "experience": "Approx. 3 months",
+  "projects": [
+    "COVID-19 Insights Dashboard (Power BI)",
+    "Sales Performance Dashboard (Excel)",
+    "Sales Analytics Dashboard (Power BI)",
+    "Ola Cabs Taxi Analysis (Power BI)"
+  ],
+  "skills": [
+    "Python",
+    "C",
+    "C++",
+    "Pandas",
+    "Numpy",
+    "Matplotlib",
+    "Power BI",
+    "Excel",
+    "PowerPoint",
+    "MySQL",
+    "Jupyter Notebook",
+    "Visual Studio Code",
+    "Google Collab",
+    "Report Building",
+    "People Management",
+    "Excellent communication",
+    "Excel Advanced Functions",
+    "DAX Calculations",
+    "Data Modelling",
+    "ETL Processes",
+    "Data Visualization",
+    "Statistical Analysis",
+    "Dashboard Development"
+  ],
+  "githubUrls": [
+    "https://github.com/gsjuneja226"
+  ],
+--- RAW RESPONSE END ---
+--> [DEBUG] Found 1 GitHub URLs via regex fallback.
+
+[3] Cloning Repository (Session: 1775303977082)...
+Detected profile URL. Fetching repos for gsjuneja226...
+No matching repositories found for projects: [] in user gsjuneja226
+Fallback: cloning the most recently updated repository 'Interviewagent_deadlockers'.
+Cloning https://github.com/gsjuneja226/Interviewagent_deadlockers.git into cloned_repos\1775303977082\Interviewagent_deadlockers...
+Error cloning repository Interviewagent_deadlockers: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v -- https://github.com/gsjuneja226/Interviewagent_deadlockers.git cloned_repos\1775303977082\Interviewagent_deadlockers
+  stderr: 'fatal: destination path 'cloned_repos\1775303977082\Interviewagent_deadlockers' already exists and is not an empty directory.
+'
+
+[4] Indexing Resume and Code into ChromaDB...
+{"status": "success", "nodes_indexed": 3, "collection": "1775303977082"}
+
+[5] Generating Code-Aware Interview Questions for 1775303977082...
+Error parsing questions from AI: No JSON array bounds found. Raw response length: 1385
+--- RAW RESPONSE START ---
+```json
+[
+  "In the project COVID-19 Insights Dashboard, specifically in the main dashboard file, you integrated 3 CSV datasets with complex data relationships. What specific data validation processes did you implement to ensure data integrity across these diverse sources, and how did you handle potential inconsistencies or errors?",
+  "In the Sales Performance Dashboard project, specifically within the Excel file, you mentioned reducing manual analysis time by 40% through automation. Can you describe a specific Excel function or feature you utilized to achieve this, and what were the key challenges you faced in automating the reporting system?",
+  "In the Ola Cabs Taxi Analysis project, focusing on the Power BI file, you analyzed booking trends and cancellation rates to optimize fleet management. How did you determine the optimal level of granularity for your time-series visualizations to effectively identify peak hour patterns without overwhelming the user with excessive detail?",
+  "Your resume mentions experience with ETL processes. Describe a situation where you had to implement a complex data transformation pipeline. What tools did you use, and what were the biggest challenges you faced in ensuring data quality and consistency throughout the process?",
+  "You've listed DAX calculations as a key technical skill. Can you describe a scenario where you used DAX
+--- RAW RESPONSE END ---
+
+==========================================
+      FINAL RAG INTERVIEW QUESTIONS       
+==========================================
+
+===RAG_START===
+["\"In the project COVID-19 Insights Dashboard, specifically in the main dashboard file, you integrated 3 CSV datasets with complex data relationships. What specific data validation processes did you implement to ensure data integrity across these diverse sources, and how did you handle potential inconsistencies or errors?\",", "\"In the Sales Performance Dashboard project, specifically within the Excel file, you mentioned reducing manual analysis time by 40% through automation. Can you describe a specific Excel function or feature you utilized to achieve this, and what were the key challenges you faced in automating the reporting system?\",", "\"In the Ola Cabs Taxi Analysis project, focusing on the Power BI file, you analyzed booking trends and cancellation rates to optimize fleet management. How did you determine the optimal level of granularity for your time-series visualizations to effectively identify peak hour patterns without overwhelming the user with excessive detail?\",", "\"Your resume mentions experience with ETL processes. Describe a situation where you had to implement a complex data transformation pipeline. What tools did you use, and what were the biggest challenges you faced in ensuring data quality and consistency throughout the process?\","]
+===RAG_END===
+
+1. "In the project COVID-19 Insights Dashboard, specifically in the main dashboard file, you integrated 3 CSV datasets with complex data relationships. What specific data validation processes did you implement to ensure data integrity across these diverse sources, and how did you handle potential inconsistencies or errors?",
+2. "In the Sales Performance Dashboard project, specifically within the Excel file, you mentioned reducing manual analysis time by 40% through automation. Can you describe a specific Excel function or feature you utilized to achieve this, and what were the key challenges you faced in automating the reporting system?",
+3. "In the Ola Cabs Taxi Analysis project, focusing on the Power BI file, you analyzed booking trends and cancellation rates to optimize fleet management. How did you determine the optimal level of granularity for your time-series visualizations to effectively identify peak hour patterns without overwhelming the user with excessive detail?",
+4. "Your resume mentions experience with ETL processes. Describe a situation where you had to implement a complex data transformation pipeline. What tools did you use, and what were the biggest challenges you faced in ensuring data quality and consistency throughout the process?",
+
+STDERR: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+The following layers were not sharded: embeddings.LayerNorm.weight, encoder.layer.*.intermediate.dense.bias, encoder.layer.*.attention.self.query.weight, encoder.layer.*.output.dense.weight, encoder.layer.*.attention.self.query.bias, pooler.dense.weight, pooler.dense.bias, encoder.layer.*.attention.self.value.bias, encoder.layer.*.attention.output.LayerNorm.bias, encoder.layer.*.output.dense.bias, embeddings.position_embeddings.weight, encoder.layer.*.attention.self.value.weight, encoder.layer.*.attention.output.dense.bias, encoder.layer.*.attention.self.key.weight, encoder.layer.*.output.LayerNorm.weight, embeddings.token_type_embeddings.weight, embeddings.word_embeddings.weight, encoder.layer.*.intermediate.dense.weight, embeddings.LayerNorm.bias, encoder.layer.*.attention.output.LayerNorm.weight, encoder.layer.*.attention.output.dense.weight, encoder.layer.*.attention.self.key.bias, encoder.layer.*.output.LayerNorm.bias
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights:  50%|#####     | 100/199 [00:00<00:00, 985.22it/s]
+Loading weights: 100%|##########| 199/199 [00:00<00:00, 1129.47it/s]
+The following layers were not sharded: embeddings.LayerNorm.weight, encoder.layer.*.intermediate.dense.bias, encoder.layer.*.attention.self.query.weight, encoder.layer.*.output.dense.weight, encoder.layer.*.attention.self.query.bias, pooler.dense.weight, pooler.dense.bias, encoder.layer.*.attention.self.value.bias, encoder.layer.*.attention.output.LayerNorm.bias, encoder.layer.*.output.dense.bias, embeddings.position_embeddings.weight, encoder.layer.*.attention.self.value.weight, encoder.layer.*.attention.output.dense.bias, encoder.layer.*.attention.self.key.weight, encoder.layer.*.output.LayerNorm.weight, embeddings.token_type_embeddings.weight, embeddings.word_embeddings.weight, encoder.layer.*.intermediate.dense.weight, embeddings.LayerNorm.bias, encoder.layer.*.attention.output.LayerNorm.weight, encoder.layer.*.attention.output.dense.weight, encoder.layer.*.attention.self.key.bias, encoder.layer.*.output.LayerNorm.bias
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 199/199 [00:00<00:00, 2817.01it/s]
+
+-----------------------------------
+
+--- [2026-04-04T12:27:44.965Z] RAG Execution (1775305616317) ---
+Code: 1
+STDOUT: 
+STDERR: Traceback (most recent call last):
+  File "D:\3.interviewIQ\THAPAR\backup\interview\rag_service-open\rag_service\test_rag_pipeline.py", line 22, in <module>
+    from indexer import run_indexing
+  File "D:\3.interviewIQ\THAPAR\backup\interview\rag_service-open\rag_service\indexer.py", line 12, in <module>
+    from llama_index.embeddings.google import GeminiEmbedding
+ModuleNotFoundError: No module named 'llama_index.embeddings.google'
+
+-----------------------------------
